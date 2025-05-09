@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Trần San San</title>
+  <link rel="stylesheet" href="Portfolio.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <nav class="sidebar">
+      <div class="avatar">
+        <img src="avatar.png" alt="Tran San San">
+        <h1>TRẦN SAN SAN</h1>
+        <p class="subtitle">Thực tập sinh</p>
+      </div>
+      <div class="info">
+        <h3>Thông tin</h3>
+        <p>📞 0345034788</p>
+        <p>📧 sanntran24.6@gmail.com</p>
+        <p>📍 Thanh Khê - Đà Nẵng</p>
+      </div>
+      <div class="section">
+        <h3>Hoạt động</h3>
+        <ul>
+          <li>CLB Tình Nguyện (2023-2024)</li>
+          <li>CLB Truyền Thông (2023-2024)</li>
+          <li>CLB Nghệ Thuật (2023-2024)</li>
+          <li>FPT Edu’s Got Talent - Thí sinh</li>
+          <li>The Duet 2023 - Thí sinh</li>
+          <li>Bee On The Mic 2023 - Thí sinh</li>
+          <li>Theatre Fest - Thí sinh</li>
+          <li>Siêu Cúp Phổ Cao 2024 - CTV</li>
+          <li>Shining Bee Dance - Thí sinh</li>
+          <li>Champions League 2024 - MC</li>
+          <li>Debate Contest 2024 - Thí sinh</li>
+        </ul>
+      </div>
+      <div class="section">
+        <h3>Sở thích</h3>
+            <ul>
+                <li>Dance</li>
+                <li>Đọc sách</li>
+                <li>Cầu lông</li>
+                <li>Vẽ</li>
+                <li>Làm video</li>
+              </ul>
+      </div>
+      <div class="section">
+        <h3>Năng khiếu</h3>
+        <ul>
+          <li>Viết nội dung sáng tạo</li>
+          <li>Tư duy logic và giải quyết vấn đề</li>
+          <li>Học và sử dụng công nghệ mới nhanh chóng</li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="content">
+      <section>
+        <h2>Mục tiêu</h2>
+        <ul>
+          <li>Làm quen với môi trường làm việc thực tế: Trải nghiệm quy trình làm việc chuyên nghiệp thông qua việc tham gia vào dự án mô phỏng môi trường doanh nghiệp.</li>
+          <li>Áp dụng kiến thức vào dự án cụ thể: Vận dụng các kiến thức đã học (lập trình, thiết kế giao diện, quản lý cơ sở dữ liệu,...) để giải quyết yêu cầu thực tế của dự án.</li>
+          <li>Phát triển kỹ năng mềm: Cải thiện khả năng giao tiếp, làm việc nhóm, quản lý thời gian và phối hợp hiệu quả với các thành viên trong quá trình triển khai dự án.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Học vấn</h2>
+        <p><strong>FPT PolySchool</strong> – Công nghệ Thông tin</p>
+        <p>Thời gian: 08/2023 - 08/2025</p>
+        <p>GPA: 9.2/10</p>
+      
+        <ul>
+          <li class="certificate-item" onclick="togglePDF('pdf-vanhoa', this)">
+            Xem bảng điểm Văn hóa
+          </li>
+          <iframe id="pdf-vanhoa" src="Bảng điểm  FPT Polytechnic (4).pdf" style="display:none; width:100%; height:500px;"></iframe>
+      
+          <li class="certificate-item" onclick="togglePDF('pdf-chuyennganh', this)">
+            Xem bảng điểm Chuyên ngành
+          </li>
+          <iframe id="pdf-chuyennganh" src="Bảng điểm  FPT Polytechnic (2).pdf" style="display:none; width:100%; height:500px;"></iframe>
+        </ul>
+      </section>
+      
+
+      <section>
+        <h2>Kỹ năng</h2>
+        <h4>Kỹ năng chuyên môn:</h4>
+        <ul>
+          <li>Lập trình: C/C++, C#, JavaScript</li>
+          <li>Phát triển Web: HTML, CSS</li>
+          <li>Cơ sở dữ liệu: MySQL, SQL Server</li>
+          <li>Quản lý phiên bản: Git, GitHub</li>
+        </ul>
+        <h4>Kỹ năng mềm:</h4>
+        <ul>
+          <li>Kỹ năng làm việc nhóm</li>
+          <li>Kỹ năng thuyết trình</li>
+          <li>Kỹ năng quản lý thời gian</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Chứng chỉ</h2>
+        <ul>
+          <li class="certificate-item" onclick="togglePDF('pdf-ai', this)">
+            Coursera AI – DeepLearning.AI (02/2025)
+          </li>
+          <iframe id="pdf-ai" src="Coursera VKTSTP972MLO.pdf" style="display:none; width:100%; height:500px;"></iframe>
+      
+          <li class="certificate-item" onclick="togglePDF('pdf-mos', this)">
+            MOS PowerPoint - Microsoft (04/2025)
+          </li>
+          <iframe id="pdf-mos" src="Microsoft-PP.pdf" style="display:none; width:100%; height:500px;"></iframe>
+        </ul>
+      </section>
+
+
+      <section>
+        <h2>Kinh nghiệm làm việc</h2>
+        <div class="job">
+          <h4>Website giới thiệu trường học – WEB1013</h4>
+          <ul>
+            <li>Mô tả: Xây dựng website tĩnh giới thiệu trường PTTH với ít nhất 5 trang chức năng (Trang chủ, Giới thiệu, Liên hệ, Góp ý, Hỏi đáp).</li>
+            <li>Công nghệ: HTML, CSS, JavaScript; sử dụng công cụ thiết kế layout như Mockup/Visio.</li>
+            <li>Nhiệm vụ:
+            
+                Phân tích yêu cầu và thiết kế cấu trúc website.
+                
+                Thiết kế giao diện người dùng, lựa chọn màu sắc, bố cục, font chữ phù hợp với thương hiệu trường học.
+                
+                Nhúng video, hình ảnh, bản đồ; tổ chức tài nguyên web hợp lý (CSS, JS, Media).
+                
+                Đăng ký host miễn phí, trỏ domain và triển khai website lên môi trường thật.
+                </li>
+                <li> Kết quả: Website hoạt động ổn định, đầy đủ chức năng, có tính thẩm mỹ và phù hợp đối tượng người dùng.</li>
+          </ul>
+        </div>
+        <div class="job">
+          <h4>Phần mềm quản lý quán PolyCafe – SOF2052</h4>
+          <ul>
+            <li>Mô tả: Xây dựng phần mềm quản lý bán hàng cho chuỗi cửa hàng café thuộc hệ thống FPT Polytechnic.</li>
+            <li>Công nghệ: C# WinForms, SQL Server, ADO.NET, Advanced Installer.
+            </li>
+            <li>Nhiệm vụ thực hiện:
+
+                Phân tích, thiết kế hệ thống và CSDL, xây dựng kiến trúc 3 lớp (GUI, DAL, DTO).
+                
+                Thực hiện chức năng đăng nhập và phân quyền người dùng (nhân viên, quản lý).
+                
+                Phát triển các chức năng bán hàng (lập phiếu, hủy, thanh toán), quản lý danh mục (nhân viên, đồ uống, loại hàng), thống kê doanh thu.
+                
+                Kiểm thử nghiệp vụ và đóng gói ứng dụng bằng Advanced Installer.
+                </li>
+                <li>Hoàn thiện ứng dụng có tính ổn định, giao diện trực quan, dễ sử dụng, đáp ứng đầy đủ yêu cầu đề bài.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  
+  <script>
+    function togglePDF(id, element) {
+      const pdf = document.getElementById(id);
+  
+      // Ẩn tất cả các iframe và gỡ class 'active' khỏi tất cả item
+      document.querySelectorAll('iframe').forEach(i => i.style.display = 'none');
+      document.querySelectorAll('.certificate-item').forEach(i => i.classList.remove('active'));
+  
+      // Nếu phần tử đang ẩn, thì hiện ra và đánh dấu active
+      if (pdf.style.display === 'none' || pdf.style.display === '') {
+        pdf.style.display = 'block';
+        element.classList.add('active');
+      }
+    }
+  </script>
+  
+</body>
+</html>
